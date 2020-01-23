@@ -23,7 +23,7 @@
 <meta name="_csrf" content="${_csrf.token}">
 <meta name="_csrf_header" content="${_csrf.headerName}">
 
-<title>Online Shopping - ${title}</title>
+<title>Kids Online Shopping - ${title}</title>
 
 <script>
 	window.menu = '${title}';
@@ -35,8 +35,8 @@
 <!-- Bootstrap Core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
-<!-- Bootstrap Readable Theme -->
-<link href="${css}/myapp.css" rel="stylesheet">
+<!-- Bootstrap Flat Theme -->
+<link href="${css}/bootstrap-flat-theme.css" rel="stylesheet">
 
 
 <!-- Custom CSS -->
@@ -53,6 +53,7 @@
 
 <body>
 	
+	<div class="wrapper">
 	
 		<!-- Navigation -->
 		<%@include file="./shared/navbar.jsp"%>
